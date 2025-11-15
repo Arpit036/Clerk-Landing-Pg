@@ -12,7 +12,7 @@ export default function Navbar(){
          <div>
          {/* middle links */}
         <ul className='flex gap-6 text-Black font-bold text-sm'>
-            <li>Products</li>  
+            <li >Products</li>  
             <li>Solutions</li>  
             <li>Docs</li>
             <li>Pricing</li>
@@ -31,7 +31,8 @@ export default function Navbar(){
 
         <div className="flex gap-4">
             <button className='text-Black font-bold text-sm'>Sign in</button>
-            <button className='bg-gradient-to-b from-blue-500 to-blue-900 text-white px-4 py-2 rounded-md'>Start building</button>
+            <button className='bg-gradient-to-b from-blue-500 to-blue-800 text-white px-2 py-1 rounded-md'>Start building</button>
+        
         </div>
         </div>
 </div>
